@@ -10,6 +10,8 @@ import Alert from "@mui/material/Alert";
 import CircularProgress from '@mui/material/CircularProgress';
 import Muis from './Muis'
 import Card from "./Card";
+import Navbar from "./Navbar"
+import Media from './Media'
 
 /* import Autocomplete from "@material-ui/lab/Autocomplete"; */
 
@@ -61,6 +63,8 @@ function App() {
 
   return (
     <div>
+      <Navbar></Navbar>
+      <Media></Media>
       <h4>Number : {number} </h4>
       {/*  <button onClick={() => setNumber(number + 1)}>Arttır</button>
       <button onClick={() => setNumber(number - 1)}>Azalt</button>
