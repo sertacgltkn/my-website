@@ -157,7 +157,7 @@ import MoreIcon from '@mui/icons-material/MoreVert';
   
     return (
       <Box sx={{ flexGrow: 1 }}>
-        <AppBar position="fixed" color='secondary' sx={{color:'gray',backgroundColor:'orange'}}>
+        <AppBar position="fixed" color='transparent' >
           <Toolbar>
             <IconButton
               size="large"

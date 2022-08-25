@@ -9,17 +9,18 @@ import Linear from "../src/components/Linear";
 import MainBG from "./components/MainBG";
 import ThemeContext  from "../src/context/ThemeContext";
 import Button from "./components/Button";
-
+import Carousel from "./components/Carousel"
 
 function App() {
   return (
     <div>
       <Navbar></Navbar>
-      <MainBG/>
+      <Carousel/>
+      
       <ThemeContext.Provider value="dark" >
         <Button/>
       </ThemeContext.Provider>
-      {/* 
+      {/* <MainBG/>
       <Media></Media>
       <Linear/>
       <Alerty/>
