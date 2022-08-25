@@ -53,7 +53,7 @@ function SwipeableTextMobileStepper() {
   };
 
   return (
-    <Box sx={{ maxWidth: 400, flexGrow: 1, alignContent:'center', alignItems:'center', position:'center' }}>
+    <Box sx={{ maxWidth: 400, flexGrow: 1, ml:60 }}>
       <Paper
         square
         elevation={0}

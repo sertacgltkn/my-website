@@ -10,12 +10,17 @@ import MainBG from "./components/MainBG";
 import ThemeContext  from "../src/context/ThemeContext";
 import Button from "./components/Button";
 import Carousel from "./components/Carousel"
+import Footer from "./components/Footer";
+/* import HomeLayout from "./components/HomeLayout";       <HomeLayout/> */
 
 function App() {
   return (
     <div>
       <Navbar></Navbar>
       <Carousel/>
+      <Footer/>
+      
+      
       
       <ThemeContext.Provider value="dark" >
         <Button/>
