@@ -16,9 +16,15 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <div>
+      
       <Navbar></Navbar>
+      <hr/>
       <Carousel/>
+      <hr/>
+      <Card/>
+      <hr/>
       <Footer/>
+      <hr/>
       
       
       
@@ -30,7 +36,7 @@ function App() {
       <Linear/>
       <Alerty/>
       <Muis/>
-      <Card/>
+      
       <Counter/> 
       */}
     </div>
