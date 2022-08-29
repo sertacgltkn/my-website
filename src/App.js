@@ -1,4 +1,4 @@
-import React from "react";
+import React, {useState} from "react";
 import Muis from "../src/components/Muis";
 import Card from "../src/components/Card";
 import Navbar from "../src/components/Navbar";
@@ -11,32 +11,36 @@ import ThemeContext  from "../src/context/ThemeContext";
 import Button from "./components/Button";
 import Carousel from "./components/Carousel"
 import Footer from "./components/Footer";
+
+
+
 /* import HomeLayout from "./components/HomeLayout";       <HomeLayout/> */
 
 function App() {
+
+  const [theme, setTheme] = useState ('light')
+
   return (
     <div>
+      <br/><br/><br/><br/><br/><br/>
       
-      <Navbar></Navbar>
+      <Navbar/><Card/><Footer/>
+
+
+      {/* 
       <hr/>
       <Carousel/>
       <hr/>
-      <Card/>
       <hr/>
-      <Footer/>
       <hr/>
-      
-      
-      
       <ThemeContext.Provider value="dark" >
         <Button/>
-      </ThemeContext.Provider>
+      </ThemeContext.Provider> */}
       {/* <MainBG/>
       <Media></Media>
       <Linear/>
       <Alerty/>
       <Muis/>
-      
       <Counter/> 
       */}
     </div>
