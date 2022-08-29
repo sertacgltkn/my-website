@@ -11,10 +11,8 @@ import ThemeContext  from "../src/context/ThemeContext";
 import Button from "./components/Button";
 import Carousel from "./components/Carousel"
 import Footer from "./components/Footer";
-
-
-
-/* import HomeLayout from "./components/HomeLayout";       <HomeLayout/> */
+//import HomeLayout from "./components/HomeLayout";  
+import SectionCarousel from "./components/SectionCarousel.js";     
 
 function App() {
 
@@ -24,12 +22,18 @@ function App() {
     <div>
       <br/><br/><br/><br/><br/><br/>
       
-      <Navbar/><Card/><Footer/>
+      <Navbar/>
+      <SectionCarousel/>
 
+      <Card/>
+      
+      <Footer/>
+ 
 
       {/* 
       <hr/>
       <Carousel/>
+      <HomeLayout/>
       <hr/>
       <hr/>
       <hr/>

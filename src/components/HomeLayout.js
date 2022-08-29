@@ -1,4 +1,4 @@
-/* import  React  from 'react';
+import  React  from 'react';
 import { styled } from '@mui/material/styles';
 import Container from '@mui/material/Container';
 import Box from '@mui/material/Box';
@@ -65,4 +65,4 @@ function HomeLayout(props) {
 }
 
 
-export default HomeLayout; */
+export default HomeLayout;
