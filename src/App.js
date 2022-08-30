@@ -12,6 +12,7 @@ import Button from "./components/Button";
 import Carousel from "./components/Carousel"
 import Footer from "./components/Footer";
 //import HomeLayout from "./components/HomeLayout";  
+import About from "./components/About";
 
 
 function App() {
@@ -23,6 +24,8 @@ function App() {
       <br/><br/><br/><br/><br/><br/>
       
       <Navbar/>
+
+      <About/>
       
 
       <Card/>

@@ -15,6 +15,7 @@ import AccountCircle from '@mui/icons-material/AccountCircle';
 import MailIcon from '@mui/icons-material/Mail';
 import NotificationsIcon from '@mui/icons-material/Notifications';
 import MoreIcon from '@mui/icons-material/MoreVert';
+import { Button, ButtonGroup } from '@mui/material';
 
 
 /* const Search = styled('div')(({ theme }) => ({
@@ -121,6 +122,7 @@ import MoreIcon from '@mui/icons-material/MoreVert';
         onClose={handleMobileMenuClose}
       >
         <MenuItem >
+        
           <IconButton  size="large" aria-label="show 4 new mails" color="inherit">
             <Badge badgeContent={4} color="error" >
               <MailIcon  />
@@ -187,6 +189,10 @@ import MoreIcon from '@mui/icons-material/MoreVert';
             </Search> */}
             <Box sx={{ flexGrow: 1 }} />
             <Box sx={{ display: { xs: 'none', md: 'flex' } }}>
+              <ButtonGroup orientation='vertical' >
+            <Button href='required' color='error' variant='contained' size='small' >About</Button>
+            <Button color='secondary' variant='contained' size='small' >Hello</Button>
+            </ButtonGroup>
               <IconButton size="large" aria-label="show 4 new mails" color="inherit">
                 <Badge badgeContent={4} color="error">
                   <MailIcon />
