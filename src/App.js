@@ -19,9 +19,16 @@ function App() {
 
   const [theme, setTheme] = useState ('light')
 
+  const [count, setCount] = useState (0);
+
   return (
     <div>
       <br/><br/><br/><br/><br/><br/>
+
+
+      <button onClick={()=> setCount (count +1)} >İncrease</button>
+      <button onClick={()=> setCount (count -1)} >Decrease</button>
+      <h1>{count}</h1>
       
       <Navbar/>
 
