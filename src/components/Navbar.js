@@ -84,15 +84,15 @@ export default function PrimarySearchAppBar() {
   };
 
   const notify = () => {
-    toast.success('🦄 Kapanmıyor', {                      //kapanmıyoooooooooooooo
-      position: "top-center",
+    toast.success("🦄 Hello", {
+      position: "bottom-right",
       autoClose: 1000,
       hideProgressBar: false,
-      closeOnClick: true,
-      pauseOnHover: true,
-      draggable: true,
+      closeOnClick: true, //sadece tıklayınca kapanıyor
+      pauseOnHover: true, //mouse ile üzerine tıklayınca duruyor
+      draggable: true, //sürükleyip bildirim silmek için
       progress: 0,
-      });
+    });
   };
 
   const menuId = "primary-search-account-menu";
@@ -207,8 +207,7 @@ export default function PrimarySearchAppBar() {
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
             <ButtonGroup orientation="vertical">
               <Button
-                onClick={() => alert("About'a Basıldı")}
-                href="required"
+                onClick={notify}
                 color="error"
                 variant="contained"
                 size="small"
