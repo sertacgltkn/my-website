@@ -91,7 +91,7 @@ export default function PrimarySearchAppBar() {
       closeOnClick: true,
       pauseOnHover: true,
       draggable: true,
-      progress: 1,
+      progress: 0,
       });
   };
 
