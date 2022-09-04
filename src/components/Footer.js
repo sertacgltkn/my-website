@@ -19,22 +19,30 @@ export default function Footer() {
           justifyContent: { sm: "space-between" },
           backgroundColor: "orange",
           position: "flex",
+          margin: 0,
+          padding: 0,
+          maxHeight: "1000vh",
+          maxWidth: '205vh'
         }}
       >
         <Typography
           color="text.secondary"
           variant="body2"
-          sx={{ color: "black" }}
+          sx={{ color: "black",
+          margin: 0,
+          padding: 0, }}
         >
           Copyright © {new Date().getFullYear()} Sertaç Gültekin
         </Typography>
         <Box sx={{ py: { xs: 2, sm: 0 } }}>
-          <Stack spacing={2} direction="row" sx={{ textAlign: "center" }}>
+          <Stack spacing={2} direction="row" sx={{ textAlign: "center",
+          margin: 0,
+          padding: 0, }}>
             <p
               style={{
                 fontWeight: "bold",
                 fontFamily: "auto",
-                color: "black",
+                color: "black"
               }}
             >
               Bize Ulaşın!

@@ -7,10 +7,12 @@ import { LoremIpsum } from "react-lorem-ipsum";
 function About() {
   return (
     <AboutLayout
+      sx={{}}
       sxBackground={{
         backgroundImage: `url(${iki})`,
         backgroundColor: "#7fc7d9", // Average color of the background image.
         backgroundPosition: "center",
+        maxWidth: '202vh', maxHeight: '1000vh'
       }}
     >
       {/* Increase the network loading priority of the background image. */}
