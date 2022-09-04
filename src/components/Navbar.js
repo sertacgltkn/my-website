@@ -182,7 +182,7 @@ export default function PrimarySearchAppBar() {
             edge="start"
             color="inherit"
             aria-label="open drawer"
-            sx={{ mr: 2 }}
+            sx={{ mr: 2, color:'black' }}
           >
             <MenuIcon />
           </IconButton>
@@ -190,7 +190,7 @@ export default function PrimarySearchAppBar() {
             variant="h6"
             noWrap
             component="div"
-            sx={{ display: { xs: "none", sm: "block" } }}
+            sx={{ display: { xs: "none", sm: "block", color:'black' } }}
           >
             Sertaç Gültekin
           </Typography>
@@ -205,12 +205,13 @@ export default function PrimarySearchAppBar() {
             </Search> */}
           <Box sx={{ flexGrow: 1 }} />
           <Box sx={{ display: { xs: "none", md: "flex" } }}>
-            <ButtonGroup orientation="vertical">
+            <ButtonGroup orientation="horizontal">
               <Button
                 onClick={notify}
                 color="error"
                 variant="contained"
                 size="small"
+                sx={{ margin: 1 }}
               >
                 About
               </Button>
@@ -219,6 +220,7 @@ export default function PrimarySearchAppBar() {
                 color="secondary"
                 variant="contained"
                 size="small"
+                sx={{ margin: 1 }}
               >
                 Hello
               </Button>
@@ -238,6 +240,7 @@ export default function PrimarySearchAppBar() {
               size="large"
               aria-label="show 4 new mails"
               color="inherit"
+              sx={{ color:'black'}}
             >
               <Badge badgeContent={4} color="error">
                 <MailIcon />
@@ -247,6 +250,7 @@ export default function PrimarySearchAppBar() {
               size="large"
               aria-label="show 17 new notifications"
               color="inherit"
+              sx={{ color:'black'}}
             >
               <Badge badgeContent={17} color="error">
                 <NotificationsIcon />
@@ -260,6 +264,7 @@ export default function PrimarySearchAppBar() {
               aria-haspopup="true"
               onClick={handleProfileMenuOpen}
               color="inherit"
+              sx={{ color:'black'}}
             >
               <AccountCircle />
             </IconButton>

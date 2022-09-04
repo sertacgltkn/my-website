@@ -14,8 +14,6 @@ export default function Footer() {
     <div>
       <Box
         sx={{
-          py: 2,
-          mt:10,
           display: "flex",
           alignItems: { sm: "center" },
           justifyContent: { sm: "space-between" },
@@ -26,7 +24,7 @@ export default function Footer() {
         <Typography
           color="text.secondary"
           variant="body2"
-          style={{ color: "#edf5f3" }}
+          sx={{ color: "black" }}
         >
           Copyright © {new Date().getFullYear()} Sertaç Gültekin
         </Typography>
@@ -36,7 +34,7 @@ export default function Footer() {
               style={{
                 fontWeight: "bold",
                 fontFamily: "auto",
-                color: "#edf5f3",
+                color: "black",
               }}
             >
               Bize Ulaşın!
@@ -49,7 +47,7 @@ export default function Footer() {
               title="GitHub"
               size="medium"
             >
-              <CallIcon fontSize="medium" sx={{ color: "white" }} />
+              <CallIcon fontSize="medium" sx={{ color: "black" }} />
             </IconButton>
             <IconButton
               target="_blank"
@@ -59,7 +57,7 @@ export default function Footer() {
               title="GitHub"
               size="medium"
             >
-              <EmailIcon fontSize="medium" sx={{ color: "white" }} />
+              <EmailIcon fontSize="medium" sx={{ color: "black" }} />
             </IconButton>
             <IconButton
               target="_blank"
@@ -69,7 +67,7 @@ export default function Footer() {
               title="GitHub"
               size="medium"
             >
-              <GitHubIcon fontSize="medium" sx={{ color: "white" }} />
+              <GitHubIcon fontSize="medium" sx={{ color: "black" }} />
             </IconButton>
             <IconButton
               target="_blank"
@@ -79,7 +77,7 @@ export default function Footer() {
               title="Twitter"
               size="medium"
             >
-              <TwitterIcon fontSize="medium" sx={{ color: "white" }} />
+              <TwitterIcon fontSize="medium" sx={{ color: "black" }} />
             </IconButton>
             <IconButton
               target="_blank"
@@ -89,7 +87,7 @@ export default function Footer() {
               title="LinkedIn"
               size="medium"
             >
-              <LinkedInIcon fontSize="medium" sx={{ color: "white" }} />
+              <LinkedInIcon fontSize="medium" sx={{ color: "black" }} />
             </IconButton>
           </Stack>
         </Box>
