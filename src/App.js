@@ -13,14 +13,7 @@ import Carousel from "./components/Carousel"
 import Footer from "./components/Footer";
 //import HomeLayout from "./components/HomeLayout";  
 import About from "./components/About";
-import { BrowserRouter, Route, Routes } from 'react-router-dom';
-import Sidebar from './components/Sidebar';
-import Dashboard from './pages/Dashboard.js';
-import Aboutt from './pages/Aboutt.js';
-import Analytics from './pages/Analytics.js';
-import Comment from './pages/Comment.js';
-import Product from './pages/Product.js';
-import ProductList from './pages/ProductList.js';
+
 
 
 function App() {
@@ -31,19 +24,7 @@ function App() {
 
   return (
     <div>
-      <BrowserRouter>
-      <Sidebar>
-        <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/dashboard" element={<Dashboard />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/comment" element={<Comment />} />
-          <Route path="/analytics" element={<Analytics />} />
-          <Route path="/product" element={<Product />} />
-          <Route path="/productList" element={<ProductList />} />
-        </Routes>
-      </Sidebar>
-    </BrowserRouter>
+      
       <br/><br/><br/><br/><br/><br/>
 
 
