@@ -38,6 +38,9 @@ function App() {
       
 
       <Card/>
+      <br></br>
+      <Media/>
+      <br></br>
       
       <Footer/>
  
@@ -53,7 +56,7 @@ function App() {
         <Button/>
       </ThemeContext.Provider> */}
       {/* <MainBG/>
-      <Media></Media>
+      
       <Linear/>
       <Alerty/>
       <Muis/>
