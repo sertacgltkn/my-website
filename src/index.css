@@ -23,9 +23,10 @@ code {
 
 }
 h4 {
-  animation-duration: 3s;
-  animation-name: slidein;
-  
+  animation-duration: 2s;                           
+  animation-name: slidein;                 /* keyframes ile slidein bağlantısı */
+  animation-delay: 0.1s;               /*  delay */
+  animation-iteration-count: infinite; /* tekrarlama */
 
 }
 
