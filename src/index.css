@@ -12,11 +12,6 @@ code {
     monospace;
 }
 
-h4{
-  border-style: dashed;
-  color: red;
-  background-color: #fff;
-} 
 
 .videoBG video {
   position: absolute;
@@ -26,4 +21,19 @@ h4{
   padding: 0;
   margin: 0;
 
+}
+h4 {
+  animation-duration: 3s;
+  animation-name: slidein;
+  
+
+}
+
+@keyframes slidein {
+  from {
+    margin-left: 50%;
+  }
+  to {
+    margin-left: 0%;
+  }
 }

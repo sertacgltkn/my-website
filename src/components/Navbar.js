@@ -200,7 +200,7 @@ export default function PrimarySearchAppBar() {
               },
             }}
           >
-            Sertaç Gültekin
+            <h4>Sertaç Gültekin</h4>
           </Typography>
           {/* <Search>
               <SearchIconWrapper>
