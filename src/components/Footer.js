@@ -55,7 +55,7 @@ export default function Footer() {
               title="GitHub"
               size="medium"
             >
-              <CallIcon fontSize="medium" sx={{ color: "black" }} />
+              <CallIcon fontSize="medium" sx={{ color: "white" }} />
             </IconButton>
             <IconButton
               target="_blank"
@@ -65,7 +65,7 @@ export default function Footer() {
               title="GitHub"
               size="medium"
             >
-              <EmailIcon fontSize="medium" sx={{ color: "black" }} />
+              <EmailIcon fontSize="medium" sx={{ color: "white" }} />
             </IconButton>
             <IconButton
               target="_blank"
@@ -75,7 +75,7 @@ export default function Footer() {
               title="GitHub"
               size="medium"
             >
-              <GitHubIcon fontSize="medium" sx={{ color: "black" }} />
+              <GitHubIcon fontSize="medium" sx={{ color: "white" }} />
             </IconButton>
             <IconButton
               target="_blank"
@@ -85,9 +85,10 @@ export default function Footer() {
               title="Twitter"
               size="medium"
             >
-              <TwitterIcon fontSize="medium" sx={{ color: "black" }} />
+              <TwitterIcon fontSize="medium" sx={{ color: "white" }} />
             </IconButton>
             <IconButton
+            
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.linkedin.com/company/mui/"
@@ -95,7 +96,7 @@ export default function Footer() {
               title="LinkedIn"
               size="medium"
             >
-              <LinkedInIcon fontSize="medium" sx={{ color: "black" }} />
+              <LinkedInIcon fontSize="medium" sx={{ color: "white" }} />
             </IconButton>
           </Stack>
         </Box>

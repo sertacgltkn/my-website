@@ -82,14 +82,15 @@ export default function RecipeReviewCard() {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton onClick={notify}
+        <IconButton 
                 color="secondary"
                 variant="contained"
                 size="small"
                 sx={{ margin: 1 }} aria-label="add to favorites">
           <FavoriteIcon />
         </IconButton>
-        <IconButton aria-label="share">
+        <IconButton aria-label="share" 
+        >
           <ShareIcon />
         </IconButton>
         <ExpandMore
