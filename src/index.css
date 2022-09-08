@@ -28,7 +28,7 @@ h4 {
   animation-delay: 0.1s;               /*  delay */
   animation-iteration-count: infinite; /* tekrarlama */
   animation-direction: alternate-reverse ;  /* sağa doğru içe girme hareketi  */
-  animation-timing-function: ease-in-out;
+  
   
 }
 
@@ -40,3 +40,4 @@ h4 {
     margin-left: 0%;
   }
 }
+

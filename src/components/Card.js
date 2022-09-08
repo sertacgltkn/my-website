@@ -16,6 +16,8 @@ import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import MoreVertIcon from '@mui/icons-material/MoreVert';
 import profileCard from '../assets/profileCard.jpg'
 import { Grid } from '@mui/material';
+import { ToastContainer, toast } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
 
 const ExpandMore = styled((props) => {
   const { expand, ...other } = props;
@@ -33,6 +35,18 @@ export default function RecipeReviewCard() {
 
   const handleExpandClick = () => {
     setExpanded(!expanded);
+  };
+
+  const notify = () => {
+    toast.success(" => Favorite", {
+      position: "bottom-right",
+      autoClose: 1000,
+      hideProgressBar: false,
+      closeOnClick: true, //sadece tıklayınca kapanıyor
+      pauseOnHover: true, //mouse ile üzerine tıklayınca duruyor
+      draggable: true, //sürükleyip bildirim silmek için
+      progress: 0,
+    });
   };
 
   return (
@@ -68,7 +82,11 @@ export default function RecipeReviewCard() {
         </Typography>
       </CardContent>
       <CardActions disableSpacing>
-        <IconButton aria-label="add to favorites">
+        <IconButton onClick={notify}
+                color="secondary"
+                variant="contained"
+                size="small"
+                sx={{ margin: 1 }} aria-label="add to favorites">
           <FavoriteIcon />
         </IconButton>
         <IconButton aria-label="share">
@@ -80,6 +98,17 @@ export default function RecipeReviewCard() {
           aria-expanded={expanded}
           aria-label="show more"
         >
+          <ToastContainer
+                position="top-center"
+                autoClose={1000}
+                hideProgressBar={false}
+                newestOnTop={false}
+                closeOnClick
+                rtl={false}
+                pauseOnFocusLoss
+                draggable
+                pauseOnHover
+              />
           <ExpandMoreIcon />
         </ExpandMore>
       </CardActions>
