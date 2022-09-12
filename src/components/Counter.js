@@ -1,14 +1,13 @@
-import React from 'react'
+import React from "react";
 import { useState } from "react";
-import { Button } from '@mui/material';
+import { Button } from "@mui/material";
 import { styled } from "@mui/material/styles";
 import { purple } from "@mui/material/colors";
 import SaveIcon from "@mui/icons-material/Save";
 import Stack from "@mui/material/Stack";
 
-
 function Counter() {
-    const [number, setNumber] = useState(0);
+  const [number, setNumber] = useState(0);
   const BootstrapButton = styled(Button)({
     boxShadow: "none",
     textTransform: "none",
@@ -54,43 +53,42 @@ function Counter() {
   }));
   return (
     <div>
+      <br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <h4> Number : {number} </h4>
 
-<h4> Number : {number} </h4>
-       
-       {/*  <button onClick={() => setNumber(number + 1)}>Arttır</button>
+      {/*  <button onClick={() => setNumber(number + 1)}>Arttır</button>
        <button onClick={() => setNumber(number - 1)}>Azalt</button>
        <button onClick={() => setNumber(number * 5)}> 5x </button>
        <button onClick={() => setNumber(0)}>RESET</button> */}
-       <Stack direction="row" spacing={2}>
-         <Button variant="outlined" color="error" onClick={() => setNumber(0)}>
-           RESET
-         </Button>
-         <Button
-           variant="outlined"
-           loading
-           loadingPosition="start"
-           startIcon={<SaveIcon />}
-           onClick={() => setNumber(number * 5)}
-         >
-           {" "}
-           5x
-         </Button>
-        
- 
-         <ColorButton variant="contained" onClick={() => setNumber(number + 1)}>
-           Arttır
-         </ColorButton>
-         <BootstrapButton
-           size="large"
-           variant="contained"
-           disableRipple
-           onClick={() => setNumber(number - 1)}
-         >
-           Azalt
-         </BootstrapButton>
-       </Stack>
+      <Stack direction="row" spacing={2}>
+        <Button variant="outlined" color="error" onClick={() => setNumber(0)}>
+          RESET
+        </Button>
+        <Button
+          variant="outlined"
+          loading
+          loadingPosition="start"
+          startIcon={<SaveIcon />}
+          onClick={() => setNumber(number * 5)}
+        >
+          {" "}
+          5x
+        </Button>
+
+        <ColorButton variant="contained" onClick={() => setNumber(number + 1)}>
+          Arttır
+        </ColorButton>
+        <BootstrapButton
+          size="large"
+          variant="contained"
+          disableRipple
+          onClick={() => setNumber(number - 1)}
+        >
+          Azalt
+        </BootstrapButton>
+      </Stack>
     </div>
-  )
+  );
 }
 
-export default Counter
+export default Counter;
