@@ -14,11 +14,10 @@ import About from "./components/about/About";
 import Carousel from "./components/Carousel";
 import Alerty from "./components/Alerty";
 import Home from "./components/Home";
-import Counter from './components/Counter'
-import Linear from './components/Linear'
-import MainBG from './components/MainBG'
-import MuisAlert from './components/MuisAlert'
-
+import Counter from "./components/Counter";
+import Linear from "./components/Linear";
+import MainBG from "./components/MainBG";
+import MuisAlert from "./components/MuisAlert";
 
 function App() {
   return (
@@ -36,9 +35,7 @@ function App() {
           <Route path="/linear" element={<Linear />} />
           <Route path="/mainbg" element={<MainBG />} />
           <Route path="/muis" element={<MuisAlert />} />
-          
         </Routes>
-
         <Footer />
       </Router>
     </div>
