@@ -1,13 +1,13 @@
 import React from "react";
-import Alert from "@mui/material/Alert";
 
-function Alerty() {
+function Home() {
   return (
     <div>
-      <Alert onClose={() => {}}>İlk Alert</Alert>
-      <Alert>This is a success alert — check it out!</Alert>
+
+<br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+      <h5>HOMEPAGE</h5>
     </div>
   );
 }
 
-export default Alerty;
+export default Home;

@@ -15,7 +15,7 @@ import MoreIcon from "@mui/icons-material/MoreVert";
 import { Button, ButtonGroup } from "@mui/material";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 
 export default function PrimarySearchAppBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -155,10 +155,13 @@ export default function PrimarySearchAppBar() {
                 color: "black",
                 fontFamily: "Georgia, 'Times New Roman', Times, serif",
                 fontStyle: "italic",
+                textDecoration:"none"
               },
             }}
           >
-            <h4>Sertaç Gültekin</h4>
+            <Link exact to="/" style={{ textDecoration: 'none', color:'white' }}>
+              <h4>Sertaç Gültekin</h4>
+            </Link>
           </Typography>
 
           <Box sx={{ flexGrow: 1 }} />
@@ -172,7 +175,7 @@ export default function PrimarySearchAppBar() {
                 textDecoration="none"
                 sx={{ margin: 1 }}
               >
-                <Link exact to="/about">
+                <Link exact to="/about" style={{ textDecoration: 'none', color:'white' }}>
                   About
                 </Link>
               </Button>
@@ -183,7 +186,7 @@ export default function PrimarySearchAppBar() {
                 size="small"
                 sx={{ margin: 1 }}
               >
-                <Link exact to="/card">
+                <Link exact to="/card" style={{ textDecoration: 'none', color:'white' }}>
                   Projects
                 </Link>
               </Button>
