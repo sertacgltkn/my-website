@@ -3,7 +3,7 @@ import videoBG from '../assets/videoBG.MOV'
 
 const MainBG = () => {
   return (
-    <div className='videoBG'>
+    <div  className='videoBG'>
       
         <video height={"250vh"} src={videoBG} autoPlay loop muted />
 

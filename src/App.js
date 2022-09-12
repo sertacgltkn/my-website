@@ -15,6 +15,9 @@ import Carousel from "./components/Carousel";
 import Alerty from "./components/Alerty";
 import Home from "./components/Home";
 import Counter from './components/Counter'
+import Linear from './components/Linear'
+import MainBG from './components/MainBG'
+import MuisAlert from './components/MuisAlert'
 
 
 function App() {
@@ -30,6 +33,9 @@ function App() {
           <Route path="/carousel" element={<Carousel />} />
           <Route path="/alerty" element={<Alerty />} />
           <Route path="/counter" element={<Counter />} />
+          <Route path="/linear" element={<Linear />} />
+          <Route path="/mainbg" element={<MainBG />} />
+          <Route path="/muis" element={<MuisAlert />} />
           
         </Routes>
 
