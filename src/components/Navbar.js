@@ -155,11 +155,15 @@ export default function PrimarySearchAppBar() {
                 color: "black",
                 fontFamily: "Georgia, 'Times New Roman', Times, serif",
                 fontStyle: "italic",
-                textDecoration:"none"
+                textDecoration: "none",
               },
             }}
           >
-            <Link exact to="/" style={{ textDecoration: 'none', color:'white' }}>
+            <Link
+              exact
+              to="/"
+              style={{ textDecoration: "none", color: "white" }}
+            >
               <h4>Sertaç Gültekin</h4>
             </Link>
           </Typography>
@@ -175,7 +179,11 @@ export default function PrimarySearchAppBar() {
                 textDecoration="none"
                 sx={{ margin: 1 }}
               >
-                <Link exact to="/about" style={{ textDecoration: 'none', color:'white' }}>
+                <Link
+                  exact
+                  to="/about"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
                   About
                 </Link>
               </Button>
@@ -186,7 +194,11 @@ export default function PrimarySearchAppBar() {
                 size="small"
                 sx={{ margin: 1 }}
               >
-                <Link exact to="/card" style={{ textDecoration: 'none', color:'white' }}>
+                <Link
+                  exact
+                  to="/card"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
                   Projects
                 </Link>
               </Button>
