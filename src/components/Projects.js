@@ -50,10 +50,13 @@ export default function RecipeReviewCard() {
   };
 
   return (
-    <Grid container  sx={{ml:3, mt:2}} > 
+    
+    <Grid container  sx={{ml:3, mt:12, mb:5}} > 
+    
       
       
     <Card sx={{ maxWidth: 345 }}>
+    
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">

@@ -140,7 +140,7 @@ export default function PrimarySearchAppBar() {
             edge="start"
             color="inherit"
             aria-label="open drawer"
-            sx={{ mr: 2, color: "black" }}
+            sx={{ mr: 2, color: "white" }}
           >
             <MenuIcon />
           </IconButton>
@@ -215,7 +215,7 @@ export default function PrimarySearchAppBar() {
               size="large"
               aria-label="show 4 new mails"
               color="inherit"
-              sx={{ color: "black" }}
+              sx={{ color: "white" }}
             >
               <Badge badgeContent={4} color="error">
                 <MailIcon />
@@ -225,7 +225,7 @@ export default function PrimarySearchAppBar() {
               size="large"
               aria-label="show 17 new notifications"
               color="inherit"
-              sx={{ color: "black" }}
+              sx={{ color: "white" }}
             >
               <Badge badgeContent={17} color="error">
                 <NotificationsIcon />
@@ -239,7 +239,7 @@ export default function PrimarySearchAppBar() {
               aria-haspopup="true"
               onClick={handleProfileMenuOpen}
               color="inherit"
-              sx={{ color: "black" }}
+              sx={{ color: "white" }}
             >
               <AccountCircle />
             </IconButton>

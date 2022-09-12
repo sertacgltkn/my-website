@@ -19,33 +19,33 @@ export default function Footer() {
           justifyContent: { sm: "space-between" },
           backgroundColor: "orange",
           position: "flex",
-          margin: 0,
+          margin:" 0px 0px 0px 0px",
           padding: 0,
           maxHeight: "1000vh",
-          maxWidth: '205vh'
+          maxWidth: "205vh",
         }}
       >
         <Typography
           color="text.secondary"
           variant="body2"
-          sx={{ color: "black",
-          margin: 0,
-          padding: 0, }}
-        >
-          Copyright © {new Date().getFullYear()} Sertaç Gültekin
+          sx={{ color: "black", ml:5, padding: 0,color: "white" }}
+        ><small>
+          Copyright © {new Date().getFullYear()} Sertaç Gültekin</small>
         </Typography>
         <Box sx={{ py: { xs: 2, sm: 0 } }}>
-          <Stack spacing={2} direction="row" sx={{ textAlign: "center",
-          margin: 0,
-          padding: 0, }}>
+          <Stack
+            spacing={2}
+            direction="row"
+            sx={{ textAlign: "center", margin: 0, padding: 0 }}
+          >
             <p
               style={{
                 fontWeight: "bold",
                 fontFamily: "auto",
-                color: "black"
+                color: "white",
               }}
             >
-              Bize Ulaşın!
+             <small> Bize Ulaşın!  </small>
             </p>
             <IconButton
               target="_blank"
@@ -88,7 +88,6 @@ export default function Footer() {
               <TwitterIcon fontSize="medium" sx={{ color: "white" }} />
             </IconButton>
             <IconButton
-            
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.linkedin.com/company/mui/"
