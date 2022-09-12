@@ -12,7 +12,7 @@ import Button from "./components/Button";
 import Carousel from "./components/Carousel"
 import Footer from "./components/Footer";
 //import HomeLayout from "./components/HomeLayout";  
-import About from "./components/About";
+import About from "./components/about/About";
 
 
 
