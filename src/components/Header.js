@@ -34,7 +34,7 @@ const Header = () => {
         <ul className={active ? 'ul-item' : 'ul-item oicon'}>
           <li>
             <SiAboutdotme className="icon" />
-            <Link to="/">About</Link>
+            <Link to="/about">About</Link>
           </li>
           <li>
             <AiOutlineHome className="icon" />
