@@ -1,5 +1,5 @@
 .header {
-  margin-top: 90px;
+  margin-top: 85px;
   display: flex;
   position: fixed;
   flex-direction: column;
@@ -8,8 +8,17 @@
   backdrop-filter: blur(0.1rem);
 }
 
+.close-icon{
+    margin-top: 10px;
+    margin-left: 25px;
+    height: 25px;
+    width: 25px;
+    background-color: white;
+    
+}
+
 .header-mobile {
-    margin-top: 90px;
+  margin-top: 85px;
   display: flex;
   position: fixed;
   flex-direction: column;
@@ -41,6 +50,7 @@ nav .ul-item.oicon li::after {
 }
 
 nav .ul-item li {
+    
   display: flex;
   align-items: center;
   gap: 2rem;
@@ -50,11 +60,11 @@ nav .ul-item li {
 }
 
 nav .ul-item li:hover {
-  background-color: rgba(66, 81, 52);
+  background-color: rgb(212, 29, 29);
 }
 
 nav .ul-item li .icon {
-  color: rgb(0, 255, 145);
+  color: orange;
   margin-inline: 1rem;
   font-size: 30px;
 }
@@ -68,7 +78,11 @@ nav .ul-item li a {
 }
 
 .menu-icon {
+  color: rgb(255, 255, 255);
   margin-inline: 1rem;
+  margin-top: 10px;
+  height: 25px;
+  width: 25px;
 }
 
 .menu-icon .menu {

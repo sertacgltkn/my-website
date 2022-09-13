@@ -22,7 +22,7 @@ export default function Footer() {
           margin:" 0px 0px 0px 0px",
           padding: 0,
           maxHeight: "1000vh",
-          maxWidth: "205vh",
+          maxWidth: "205vh",         
         }}
       >
         <Typography
