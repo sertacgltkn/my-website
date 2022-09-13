@@ -135,7 +135,7 @@ export default function PrimarySearchAppBar() {
         sx={{ backgroundColor: "orange" }}
       >
         <Toolbar>
-          {/* <IconButton
+          <IconButton
             size="large"
             edge="start"
             color="inherit"
@@ -143,7 +143,7 @@ export default function PrimarySearchAppBar() {
             sx={{ mr: 2, color: "white" }}
           >
             <MenuIcon />
-          </IconButton> */}
+          </IconButton>
           <Typography
             variant="h6"
             noWrap
