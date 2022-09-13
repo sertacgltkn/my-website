@@ -33,36 +33,36 @@ const Header = () => {
       <nav>
         <ul className={active ? 'ul-item' : 'ul-item oicon'}>
           <li>
-            <SiAboutdotme className="icon" />
+            <SiAboutdotme onClick={activateNav} className="icon" />
             <Link to="/about">About</Link>
           </li>
           <li>
-            <AiOutlineHome className="icon" />
+            <AiOutlineHome onClick={activateNav} className="icon" />
             <Link to="/">Home</Link>
           </li>
           <li>
-            <IoIosContact className="icon" />
-            <Link to="/">Contact</Link>
+            <IoIosContact onClick={activateNav} className="icon" />
+            <Link to="/card">Contact</Link>
           </li>
           <li>
-            <FaQuestionCircle className="icon" />
-            <Link to="/">FAQ</Link>
+            <FaQuestionCircle onClick={activateNav} className="icon" />
+            <Link to="/counter">FAQ</Link>
           </li>
           <li>
-            <FaProductHunt className="icon" />
-            <Link to="/">Projects</Link>
+            <FaProductHunt onClick={activateNav} className="icon" />
+            <Link to="/card">Projects</Link>
           </li>
           <li>
-            <FiCheck className="icon" />
-            <Link to="/">Experience</Link>
+            <FiCheck onClick={activateNav} className="icon" />
+            <Link to="/linear">Experience</Link>
           </li>
           <li>
-            <TiMessageTyping className="icon" /> 
-            <Link to="/">İletişim</Link>
+            <TiMessageTyping onClick={activateNav} className="icon" /> 
+            <Link to="/muis">İletişim</Link>
           </li>
           <li>
-            <TbSocial className="icon" />
-            <Link to="/">Social</Link>
+            <TbSocial onClick={activateNav} className="icon" />
+            <Link to="/mainbg">Social</Link>
           </li>
         </ul>
       </nav>

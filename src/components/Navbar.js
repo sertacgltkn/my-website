@@ -16,6 +16,7 @@ import { Button, ButtonGroup } from "@mui/material";
 import { ToastContainer, toast } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 import { Link, NavLink } from "react-router-dom";
+import logo from "../assets/logo.png";
 
 export default function PrimarySearchAppBar() {
   const [anchorEl, setAnchorEl] = React.useState(null);
@@ -135,15 +136,11 @@ export default function PrimarySearchAppBar() {
         sx={{ backgroundColor: "orange" }}
       >
         <Toolbar>
-          <IconButton
-            size="large"
-            edge="start"
-            color="inherit"
-            aria-label="open drawer"
-            sx={{ mr: 2, color: "white" }}
-          >
-            <MenuIcon />
-          </IconButton>
+          <Link exact to="/">
+          <Box>
+            <img src={logo} alt="logo" style={{width:'100px', height:'85px'}} />
+          </Box>
+          </Link>
           <Typography
             variant="h6"
             noWrap
