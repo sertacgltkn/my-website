@@ -137,9 +137,13 @@ export default function PrimarySearchAppBar() {
       >
         <Toolbar>
           <Link exact to="/">
-          <Box>
-            <img src={logo} alt="logo" style={{width:'100px', height:'85px'}} />
-          </Box>
+            <Box>
+              <img
+                src={logo}
+                alt="logo"
+                style={{ width: "100px", height: "85px" }}
+              />
+            </Box>
           </Link>
           <Typography
             variant="h6"
@@ -206,7 +210,103 @@ export default function PrimarySearchAppBar() {
                 size="small"
                 sx={{ margin: 1 }}
               >
-                Hello
+                <Link
+                  exact
+                  to="/media"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  Media
+                </Link>
+              </Button>
+              <Button
+                onClick={notify}
+                color="secondary"
+                variant="contained"
+                size="small"
+                sx={{ margin: 1 }}
+              >
+                <Link
+                  exact
+                  to="/carousel"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  Carousel
+                </Link>
+              </Button>
+              <Button
+                onClick={notify}
+                color="secondary"
+                variant="contained"
+                size="small"
+                sx={{ margin: 1 }}
+              >
+                <Link
+                  exact
+                  to="/alerty"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  alerty
+                </Link>
+              </Button>
+              <Button
+                onClick={notify}
+                color="secondary"
+                variant="contained"
+                size="small"
+                sx={{ margin: 1 }}
+              >
+                <Link
+                  exact
+                  to="/counter"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  counter
+                </Link>
+              </Button>
+              <Button
+                onClick={notify}
+                color="secondary"
+                variant="contained"
+                size="small"
+                sx={{ margin: 1 }}
+              >
+                <Link
+                  exact
+                  to="/linear"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  linear
+                </Link>
+              </Button>
+              <Button
+                onClick={notify}
+                color="secondary"
+                variant="contained"
+                size="small"
+                sx={{ margin: 1 }}
+              >
+                <Link
+                  exact
+                  to="/mainbg"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  mainbg
+                </Link>
+              </Button>
+              <Button
+                onClick={notify}
+                color="secondary"
+                variant="contained"
+                size="small"
+                sx={{ margin: 1 }}
+              >
+                <Link
+                  exact
+                  to="/muis"
+                  style={{ textDecoration: "none", color: "white" }}
+                >
+                  muis
+                </Link>
               </Button>
               <ToastContainer
                 position="top-center"

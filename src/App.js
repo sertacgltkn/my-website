@@ -18,13 +18,13 @@ import Linear from "./components/Linear";
 import MainBG from "./components/MainBG";
 import MuisAlert from "./components/MuisAlert";
 import Home from "./components/pages/Home";
-import Header from "./components/Header"
+import Header from "./components/Header";
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <Header/>
+      <Header />
       <Routes>
         <Route exact path="/" element={<Home />} />
         <Route exact path="/about" element={<About />} />
