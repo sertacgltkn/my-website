@@ -1,0 +1,10 @@
+.alerty {
+    margin-top: 150px;
+    background-color: rgb(255, 255, 255);
+    column-count:2;
+    column-rule:3px;
+    column-rule-color:blueviolet;
+    column-rule-style: dotted;
+    column-rule-width: 5px;
+    
+}
