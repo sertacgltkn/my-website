@@ -16,16 +16,35 @@
   );
   display: grid;
   place-items: center;
+  
 }
 
-.about__me-image {
-    border-radius: 2rem;
-    overflow: hidden;
-    transform: rotate(10deg);
+.thegirl {
+    margin-left: 150px;
+    border-radius: 50px;
+    width: 450px;
+    height: 450px;
+    transform: rotate(30deg);
     transition: var(--transition);
 }
 
-.about__me-image:hover {
+.thegirl:hover {
+    transform: rotate(0);
+}
+
+.thegirltwo {
+   
+    margin-left: 150px;
+    border-radius: 50px;
+    width: 450px;
+    height: 450px;
+    transform: rotate(0deg);
+    transition: var(--transition);
+    margin-top: -445px;
+     z-index: -1;
+}
+
+.thegirltwo:hover {
     transform: rotate(0);
 }
 
