@@ -6,8 +6,6 @@ import CardContent from '@mui/joy/CardContent';
 import Typography from '@mui/joy/Typography';
 import { Grid } from '@mui/material';
 
-
-
 export default function BasicCard() {
   return (
     <Grid container spacing={2} sx={{ml:3, mt:1}}>

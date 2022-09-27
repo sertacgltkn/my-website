@@ -55,7 +55,7 @@ export default function RecipeReviewCard() {
     
       
       
-    <Card sx={{ maxWidth: 345 }}>
+    <Card sx={{ maxWidth: 345, borderRadius:'40px' }}>
     
       <CardHeader
         avatar={
@@ -150,8 +150,8 @@ export default function RecipeReviewCard() {
     
     
     
-    <Card sx={{ maxWidth: 345, ml:2 }}>
-      <CardHeader
+    <Card sx={{ maxWidth: 345, ml:2,  borderRadius:'40px' }}>
+      <CardHeader sx={{}}
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
            S
@@ -197,7 +197,7 @@ export default function RecipeReviewCard() {
 
       </Card>
 
-      <Card sx={{ maxWidth: 345, ml:2 }}>
+      <Card sx={{ maxWidth: 345, ml:2,  borderRadius:'40px' }}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">
@@ -243,7 +243,7 @@ export default function RecipeReviewCard() {
       </CardActions>
 
       </Card>
-      <Card sx={{ maxWidth: 345, ml:2 }}>
+      <Card sx={{ maxWidth: 345, ml:2, borderRadius:'40px' }}>
       <CardHeader
         avatar={
           <Avatar sx={{ bgcolor: red[500] }} aria-label="recipe">

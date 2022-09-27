@@ -14,21 +14,16 @@ export default function Footer() {
     <div>
       <Box
         sx={{
-          display: "flex",
-          alignItems: { sm: "center" },
-          justifyContent: { sm: "space-between" },
-          backgroundColor: "orange",
-          position: "flex",
+          display: "block",       
+          backgroundColor: "orange",          
           margin:" 0px 0px 0px 0px",
-          padding: 0,
-          maxHeight: "1000vh",
-          maxWidth: "205vh",         
+          padding: 0,                  
         }}
       >
         <Typography
           color="text.secondary"
           variant="body2"
-          sx={{ color: "black", ml:5, padding: 0,color: "white" }}
+          sx={{ color: "black", ml:5, padding: 0,color: "white", textAlign:"right" }}
         ><small>
           Copyright © {new Date().getFullYear()} Sertaç Gültekin</small>
         </Typography>
